@@ -1,13 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #FBDBC1;
   color: #1D1F20;
+}
 
+h2{
+ font-size: 80px;
+ font-weight: 500;
+}
+
+h3{
+  font-size: 48px;
+  font-weight: 400;
+}
+
+h4{
+  font-size: 36px;
+  font-weight: 300;
+}
+
+h5{
+  font-size: 24px;
+  font-weight: 300;
 }
 
 footer{
-  background-color: ;
+  background-color: #55493f;
 }
+
+/* NAV SECTION ELEMENT STYLES */
+.wrp_navWrapper{
+  position: fixed;
+  margin: auto;
+  width: 100%;
+}
+
+.flx_navParent{
+  border: 1px solid #B6590D;
+  background-color: #813F09;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.img_logo img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+.blk_navParent{
+  display: flex;
+  margin-right: 10px;
+}
+
+.blk_navParent a{
+  margin-right: 30px;
+}
+
+.blk_navParent h4{
+  color: #D6E9F5;
+  font-size: 24px;
+  font-weight: 200;
+  text-decoration: underline;
+}
+
+
+/* HEADER SECTION ELEMENT STYLES */
+
+
+
+
+/* LOCATION SECTION ELEMENT STYLES */
 
 .flx_locChild{
   background-color: #D6E9F5;
