@@ -26,6 +26,7 @@ h4{
 h5{
   font-size: 24px;
   font-weight: 300;
+  line-height: 1.4em;
 }
 
 footer{
@@ -46,7 +47,6 @@ footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .img_logo img{
@@ -78,7 +78,39 @@ footer{
 
 /* LOCATION SECTION ELEMENT STYLES */
 
+.sec_location{
+  height: 500px;
+  max-width: 1280px;
+  margin: auto;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.flx_locWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.flx_locParent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
 .flx_locChild{
   background-color: #D6E9F5;
   border: 2px solid #B6590D;
+  text-align: center;
+  width: 300px;
+  height: 100%;
+  margin: 0px 20px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.flx_locChild h4{
+  font-weight: 400;
+  padding-bottom: 30px;
 }
