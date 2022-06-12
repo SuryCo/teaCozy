@@ -38,6 +38,7 @@ footer{
   position: fixed;
   margin: auto;
   width: 100%;
+  
 }
 
 .flx_navParent{
@@ -70,9 +71,11 @@ footer{
   text-decoration: underline;
 }
 
-
 /* HEADER SECTION ELEMENT STYLES */
-
+header{
+  height: 700px;
+  width: 1200px;
+}
 
 
 
